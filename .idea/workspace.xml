@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c5086d1a-c6f0-487a-b930-ae5e81a9b78a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1nsEsCWN0JB9LbrrmvnjCysheUM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="public" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.EventCreationTests.eventCreationTest">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventCreationTests.eventCreationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.telran.scheduler.tests.EventCreationTests.eventCreationTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LoginTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;LoginTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LoginTest.testLogin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;LoginTest.testLogin&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="OpenAppTest.testLaunchApp" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;OpenAppTest.testLaunchApp&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.EventCreationTests.eventCreationTest" />
+        <item itemvalue="Gradle.LoginTest.testLogin" />
+        <item itemvalue="Gradle.LoginTest" />
+        <item itemvalue="Gradle.OpenAppTest.testLaunchApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c5086d1a-c6f0-487a-b930-ae5e81a9b78a" name="Default Changelist" comment="" />
+      <created>1612170614391</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612170614391</updated>
+      <workItem from="1612170616421" duration="12972000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="708" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1612177518343">
+      <screen x="0" y="25" width="1280" height="706" />
+    </state>
+    <state x="708" y="141" key="#com.intellij.ide.util.MemberChooser/0.25.1280.706@0.25.1280.706" timestamp="1612177518343" />
+    <state x="601" y="281" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1612176836185">
+      <screen x="0" y="25" width="1280" height="706" />
+    </state>
+    <state x="601" y="281" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.25.1280.706@0.25.1280.706" timestamp="1612176836185" />
+    <state width="720" height="130" key="GridCell.Tab.0.bottom" timestamp="1612217188777">
+      <screen x="0" y="25" width="1280" height="706" />
+    </state>
+    <state width="720" height="130" key="GridCell.Tab.0.bottom/0.25.1280.706@0.25.1280.706" timestamp="1612217188777" />
+    <state width="720" height="130" key="GridCell.Tab.0.center" timestamp="1612217188775">
+      <screen x="0" y="25" width="1280" height="706" />
+    </state>
+    <state width="720" height="130" key="GridCell.Tab.0.center/0.25.1280.706@0.25.1280.706" timestamp="1612217188775" />
+    <state width="720" height="130" key="GridCell.Tab.0.left" timestamp="1612217188767">
+      <screen x="0" y="25" width="1280" height="706" />
+    </state>
+    <state width="720" height="130" key="GridCell.Tab.0.left/0.25.1280.706@0.25.1280.706" timestamp="1612217188767" />
+    <state width="720" height="130" key="GridCell.Tab.0.right" timestamp="1612217188775">
+      <screen x="0" y="25" width="1280" height="706" />
+    </state>
+    <state width="720" height="130" key="GridCell.Tab.0.right/0.25.1280.706@0.25.1280.706" timestamp="1612217188775" />
+    <state x="633" y="208" key="extract.method.dialog" timestamp="1612172650759">
+      <screen x="0" y="25" width="1280" height="706" />
+    </state>
+    <state x="633" y="208" key="extract.method.dialog/0.25.1280.706@0.25.1280.706" timestamp="1612172650759" />
+  </component>
+</project>
