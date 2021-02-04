@@ -37,6 +37,9 @@ public class EventHelper extends HelperBase {
         tap(By.id("hours"));
         int hours = Integer.parseInt(driver.findElement(By.id("hours")).getText());
         while (hours != fromHour) {
+            for (int i = 0; i <= fromHour; i++) {
+                
+            }
         }
 
         tap(By.id("info_tp_date_to"));
@@ -184,5 +187,10 @@ public class EventHelper extends HelperBase {
 
         action.longPress(PointOption.point(x,startY))
                 .moveTo(PointOption.point(x,endY)).release().perform();
+    }
+
+    public void deleteFirstEvent(){
+        tap(By.id("row_day_number_txt"));
+        tap(By.id("delete_menu"));
     }
 }
