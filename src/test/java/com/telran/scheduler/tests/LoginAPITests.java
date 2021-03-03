@@ -6,12 +6,39 @@ import org.apache.http.client.fluent.Request;
 import org.apache.http.entity.ContentType;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
 import java.io.IOException;
 
 public class LoginAPITests {
 
     String baseURL = "https://super-scheduler-app.herokuapp.com";
     String token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImFuYUBnbWFpbC5jb20ifQ.-TcGy8MKAmbYXCuf0I4-NKJxebTcizV60YHxBuVRESA";
+
+    @Test
+    public void postRecordTest() throws IOException {
+        int result = Request.Post(baseURL + "/api/record")
+                .addHeader("Authorization", token)
+                .bodyString("{\n" +
+                        "  \"breaks\": 1,\n" +
+                        "  \"currency\": \"RUB\",\n" +
+                        "  \"date\": {\n" +
+                        "    \"dayOfMonth\": 5,\n" +
+                        "    \"dayOfWeek\": \"Mo\",\n" +
+                        "    \"month\": 3,\n" +
+                        "    \"year\": 2021\n" +
+                        "  },\n" +
+                        "  \"hours\": 1.0,\n" +
+                        "  \"id\": ,\n" +
+                        "  \"timeFrom\": \"09:00\",\n" +
+                        "  \"timeTo\": \"12:00\",\n" +
+                        "  \"title\": \"Rusaldo\",\n" +
+                        "  \"totalSalary\": 36,\n" +
+                        "  \"type\": \"Add\",\n" +
+                        "  \"wage\": 8\n" +
+                        "}", ContentType.APPLICATION_JSON)
+                .execute().returnResponse().getStatusLine().getStatusCode();
+        System.out.println("Status code is " + result);
+    }
 
     @Test
     public void getRecordsPeriodTest() throws IOException {
