@@ -1,6 +1,7 @@
 package com.telran.scheduler.model;
 
 public class User {
+
     private String email;
     private String password;
 
@@ -21,7 +22,5 @@ public class User {
     public String getPassword() {
         return password;
     }
-
-
 }
 

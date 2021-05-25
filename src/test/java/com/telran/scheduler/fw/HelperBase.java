@@ -22,7 +22,6 @@ public class HelperBase {
 
     public void tap(By locator) {
         driver.findElement(locator).click();
-
     }
 
     public void type(By locator, String text) {

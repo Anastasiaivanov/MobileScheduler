@@ -8,7 +8,7 @@ public class LoginTest extends TestBase {
 
     @Test
     public void testLogin() {
-        TestBase.app.user().login(new User().email("ana@gmail.com").password("Ana123456"));
-        Assert.assertTrue(TestBase.app.event().isIconSortOptionsPresent());
+        app.user().login(new User().email("ana@gmail.com").password("Ana123456"));
+        Assert.assertTrue(app.event().isIconSortOptionsPresent());
     }
 }
