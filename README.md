@@ -2,7 +2,7 @@
 
 Selenium-java tests for mobile app "Mobile Scheduler".
 
-The app provides a service to create events on user's timetable. 
+The app provides a service to create events on user's schedule. 
 
 A project to build up a test coverage for an android mobile app.
 
@@ -15,5 +15,7 @@ The test package consist of
 - UI tests (visibility objects on the page)
 
 - login Rest API tests
+
+- writes logs to a separate file each time while running the test script
 
 Technology Used : Java, TestNG, Selenium, Gradle, Postman, Open API (Swagger), Appium, Android Studio
