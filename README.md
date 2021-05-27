@@ -16,6 +16,6 @@ The test package consist of
 
 - login Rest API tests
 
-- writes logs to a separate file each time while running the test script
+- saving logs to a separate file each time while running the test script
 
 Technology Used : Java, TestNG, Selenium, Gradle, Postman, Open API (Swagger), Appium, Android Studio
